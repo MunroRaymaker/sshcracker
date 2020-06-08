@@ -3,8 +3,7 @@ A simple console application for cracking ssh passwords in dotnet.
 
 # Usage
 
-Required option 'u' is missing.
-Required option 'h' is missing.
+``` sh
 
   -u              Required. UserName
   -t              (Default: 4) No of threads. Recommend 4.
@@ -14,3 +13,5 @@ Required option 'h' is missing.
   --version       Display version information.
   value pos. 0    (Default: ./wordlists/top500.txt) Optional password list. If no list is supplied a default list will
                   be used.
+```
+
